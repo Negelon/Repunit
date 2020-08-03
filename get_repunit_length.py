@@ -11,7 +11,7 @@ def get_repunit_length(number):
         length = 0
         while(True):
             length += 1
-            if (repunit % input == 0):
+            if (repunit % number == 0):
                 return length
             else:
                 repunit = repunit + 10 ** length
